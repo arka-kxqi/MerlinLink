@@ -1,0 +1,52 @@
+{
+  "name": "@mesonfi/sdk",
+  "version": "1.18.4",
+  "description": "",
+  "license": "MIT",
+  "repository": "https://github.com/MesonFi/meson-contracts-solidity",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "lib",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "test": "mocha -r ts-node/register 'tests/**/*.spec.ts'",
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "dependencies": {
+    "@ckb-lumos/lumos": "^0.22.2",
+    "@mesonfi/contract-abis": "^1.16.0",
+    "@mesonfi/contract-types": "^1.13.0",
+    "@mysten/sui.js": "0.54.1",
+    "@solana/spl-token": "0.3.8",
+    "@solana/web3.js": "1.87.5",
+    "aptos": "1.3.16",
+    "bs58": "^4.0.1",
+    "cross-fetch": "^3.1.5",
+    "ethers": "5.7.2",
+    "lodash": "^4.17.21",
+    "starknet": "^5.24.3",
+    "tronweb": "5.2.0",
+    "tweetnacl": "1.0.3",
+    "zksync-web3": "0.13.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.3",
+    "@types/chai-as-promised": "^7.1.5",
+    "@types/lodash": "^4.14.186",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^20.9.0",
+    "abi-wan-kanabi": "^2.1.0",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "ethereum-waffle": "^4.0.4",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.5"
+  }
+}

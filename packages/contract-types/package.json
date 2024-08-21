@@ -1,0 +1,14 @@
+{
+  "name": "@mesonfi/contract-types",
+  "version": "1.13.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "https://github.com/MesonFi/meson-contracts-solidity",
+  "types": "types/index.js",
+  "files": [
+    "types"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

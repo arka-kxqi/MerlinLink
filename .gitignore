@@ -1,0 +1,17 @@
+.DS_Store
+.vscode
+
+node_modules
+/.openzeppelin
+
+/cache
+/cache-zk
+/artifacts
+/artifacts-zk
+/deploys
+/docs
+
+.env
+
+/contracts/utils/MesonConfig.sol
+.npmrc
